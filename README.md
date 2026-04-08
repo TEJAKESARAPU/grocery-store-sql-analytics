@@ -98,8 +98,8 @@ employees, and suppliers.
 
 Teja Kesarapu
 
-LinkedIn: https://www.linkedin.com/in/tejakesarapu/
-GitHub: https://github.com/TEJAKESARAPU
+- LinkedIn: https://www.linkedin.com/in/tejakesarapu/
+- GitHub: https://github.com/TEJAKESARAPU
 
 ------------------------------------------------------------------------
 
