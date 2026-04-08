@@ -1,103 +1,106 @@
-# 📊 Bank Customer Churn Analysis - Power BI Project
+# 🛒 Grocery Store SQL Analytics Project
 
 ## 📌 Overview
-This project focuses on analyzing customer churn in a banking dataset using **Power BI**.  
-The goal is to identify patterns and key factors that lead to customer attrition and provide actionable insights for improving customer retention.
 
----
+This project analyzes a Grocery Store Management System using SQL.\
+It provides business insights across sales, customers, products,
+employees, and suppliers.
 
-## 🎯 Objectives
-- Analyze customer behavior and churn trends  
-- Identify high-risk customer segments  
-- Provide insights to reduce churn rate  
-- Build an interactive and dynamic dashboard  
+------------------------------------------------------------------------
 
----
+## 🗂️ Database Schema
 
-## 🗂️ Dataset Details
-The dataset contains customer-related information such as:
-- Customer ID  
-- Age  
-- Gender  
-- Geography  
-- Account Balance  
-- Tenure  
-- Credit Score  
-- Active Status  
-- Churn Status  
+-   Categories
+-   Products
+-   Suppliers
+-   Customers
+-   Orders
+-   Order Details
+-   Employees
 
----
+------------------------------------------------------------------------
 
-## ⚙️ Tools & Technologies Used
-- Power BI  
-- SQL  
-- Excel / CSV  
-- DAX (Data Analysis Expressions)  
+## 📊 Key Business Problems Solved
 
----
+### 🔹 Sales & Order Trends
 
-## 🧹 Data Cleaning & Transformation
-Performed using **Power Query Editor**:
-- Removed duplicates  
-- Handled missing/null values  
-- Standardized column formats  
-- Created calculated columns  
+-   Total number of orders
+-   Average order value
+-   Monthly revenue trends
+-   Weekend vs weekday analysis
 
----
+### 🔹 Customer Insights
 
-## 📊 Key Metrics (KPIs)
-- Total Customers  
-- Churned Customers  
-- Churn Rate (%)  
-- Average Balance  
-- Active vs Inactive Customers  
+-   Unique active customers
+-   Top customers by revenue
+-   Customer lifetime value
 
----
+### 🔹 Product Performance
 
-## 📈 Dashboard Features
-- Interactive slicers (Gender, Geography, Age Group, etc.)  
-- Dynamic charts for trend analysis  
-- KPI cards for quick insights  
-- Drill-down and filtering capabilities  
+-   Top-selling products
+-   Revenue by product
+-   Category-wise analysis
 
----
+### 🔹 Employee Performance
 
-## 🔍 Key Insights
-- Customers with lower balance show higher churn tendency  
-- Inactive customers are more likely to churn  
-- Certain regions have higher churn rates  
-- Older age groups show higher churn probability  
+-   Orders handled per employee
+-   Revenue contribution per employee
 
----
+### 🔹 Supplier Contribution
 
-## 💡 Business Recommendations
-- Target high-risk customers with personalized offers  
-- Improve engagement for inactive users  
-- Provide loyalty benefits  
-- Enhance customer support services  
+-   Supplier product distribution
+-   Revenue contribution by supplier
 
----
+------------------------------------------------------------------------
 
-## 🧠 DAX Example
-```DAX
-Churn Rate = DIVIDE([Churned Customers], [Total Customers], 0)
-```
+## 📈 Key Insights
 
----
-## Dashboard preview
+-   Total Orders: 300
+-   Total Revenue: ₹5.51 Lakhs
+-   Active Customers: 156
+-   Products: 50 across 5 categories
 
-<img width="1309" height="736" alt="image" src="https://github.com/user-attachments/assets/88b7a096-b39f-4e2e-b12a-d0dfe016eeab" />
+------------------------------------------------------------------------
 
----
+## 🛠️ Tech Stack
 
-## 🚀 How to Use
-- Download the .pbix file
-- Open in Power BI Desktop
-- Interact with filters and visuals
+-   SQL (MySQL)
+-   Database Design
+-   Normalization
 
---- 
+------------------------------------------------------------------------
 
-## 📬 Contact
+## 📁 Project Structure
 
-- Teja Kesarapu
-- [🔗 LinkedIn](https://www.linkedin.com/in/tejakesarapu/)
+-   Datasets/
+-   ERD/
+-   Presentation/
+-   SQL Queries/
+
+------------------------------------------------------------------------
+
+## 🚀 How to Run
+
+1.  Create database using schema.sql
+2.  Import CSV files
+3.  Run SQL queries
+
+------------------------------------------------------------------------
+
+## 💡 Future Improvements
+
+-   Power BI dashboard
+-   Automation with Python
+
+------------------------------------------------------------------------
+
+## 🙌 Author
+
+Teja Kesarapu
+
+LinkedIn: https://www.linkedin.com/in/tejakesarapu/
+GitHub: https://github.com/TEJAKESARAPU
+
+------------------------------------------------------------------------
+
+⭐ If you like this project, give it a star!
