@@ -8,16 +8,16 @@ The goal is to identify patterns and key factors that lead to customer attrition
 ## 📁 Project Structure
 
 grocery-store-sql-analytics/
-│
-├── 📂 Datasets/ # Raw and processed datasets
-├── 📂 ERD/ # Entity Relationship Diagram files
-├── 📂 Presentation/ # PPT / PDF presentation files
-├── 📂 SQL Queries/ # SQL scripts used for analysis
-│
-├── 📄 README.md # Project documentation
-├── 📄 LICENSE # License information
-│
-└── 📊 Bank_Churn.pbix # Power BI dashboard file
+|
+|-- 📂 Datasets/ # Raw and processed datasets
+|-- 📂 ERD/ # Entity Relationship Diagram files
+|-- 📂 Presentation/ # PPT / PDF presentation files
+|-- 📂 SQL Queries/ # SQL scripts used for analysis
+|
+|-- 📄 README.md # Project documentation
+|-- 📄 LICENSE # License information
+|
+|-- 📊 Bank_Churn.pbix # Power BI dashboard file
 ---
 
 ## 🎯 Objectives
