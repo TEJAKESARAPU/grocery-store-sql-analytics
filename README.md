@@ -99,5 +99,5 @@ Churn Rate = DIVIDE([Churned Customers], [Total Customers], 0)
 
 ## 📬 Contact
 
-Teja Kesarapu
-[🔗 LinkedIn](https://www.linkedin.com/in/tejakesarapu/)
+- Teja Kesarapu
+- [🔗 LinkedIn](https://www.linkedin.com/in/tejakesarapu/)
